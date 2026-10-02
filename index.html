@@ -3,31 +3,32 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Portfólio de Otávio Santos - Desenvolvedor Fullstack focado em Front-end e Criatividade">
+    <meta name="author" content="Otávio Santos">
     <title>Otávio Santos - Currículo</title>
 </head>
 <body>
 
     <header>
         <h1>Otávio Santos</h1>
-        <p>Desenvolvedor <strong>Fullstack</strong> | <em>Focado em soluções web modernas</em></p>
+        <p>Desenvolvedor <strong>Fullstack</strong> | <em>com foco em CRIATIVIDADE E FRONT-END</em></p>
         
-        <!-- Lista não ordenada para navegação/contatos -->
-        <ul>
-            <li>E-mail: otavio@example.com</li>
-            <li>GitHub: <a href="https://github.com/T4vinh0h" target="_blank">T4vinh0h</a></li>
-            <li>LinkedIn: <a href="https://linkedin.com/in/t4vinhoh" target="_blank">t4vinhoh</a></li>
-        </ul>
+        <nav aria-label="Contatos">
+            <ul>
+                <li>E-mail: <a href="mailto:otavio@example.com">otavio@example.com</a></li>
+                <li>GitHub: <a href="https://github.com/T4vinh0h" target="_blank" rel="noopener noreferrer">T4vinh0h</a></li>
+                <li>LinkedIn: <a href="https://linkedin.com/in/t4vinhoh" target="_blank" rel="noopener noreferrer">t4vinhoh</a></li>
+            </ul>
+        </nav>
     </header>
 
     <main>
-        <!-- Seção Sobre -->
-        <section>
+        <section id="sobre">
             <h2>Sobre Mim</h2>
             <p>Sou um desenvolvedor apaixonado por tecnologia, com experiência na criação de aplicações web completas, focando sempre em <strong>performance</strong> e boa experiência para o usuário.</p>
         </section>
 
-        <!-- Seção Experiência / Etapas (Exemplo de lista ordenada) -->
-        <section>
+        <section id="trajetoria">
             <h2>Trajetória Profissional</h2>
             <p>Principais marcos da minha carreira:</p>
             <ol>
@@ -37,38 +38,60 @@
             </ol>
         </section>
 
-        <!-- Seção Projetos -->
-        <section>
+        <section id="projetos">
             <h2>Projetos em Destaque</h2>
             
-            <article>
-                <h3>Projeto-OnBus</h3>
-                <p>Plataforma Full Stack de mobilidade urbana voltada para recargas digitais e localização em tempo real.</p>
-            </article>
-
-            <article>
-                <h3>Logica_Prog.-Node.js</h3>
-                <p>Repositório contendo mais de 340 exercícios voltados para lógica de programação.</p>
-            </article>
+            <table>
+                <thead>
+                    <tr>
+                        <th scope="col">Projeto</th>
+                        <th scope="col">Descrição</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td><strong>Projeto-OnBus</strong></td>
+                        <td>Plataforma Full Stack de mobilidade urbana voltada para recargas digitais e localização em tempo real.</td>
+                    </tr>
+                    <tr>
+                        <td><strong>Aprendizado_Dev</strong></td>
+                        <td>Repositório contendo mais de 340 exercícios voltados para lógica de programação.</td>
+                    </tr>
+                </tbody>
+            </table>
         </section>
 
-        <!-- Seção Skills -->
-        <section>
+        <section id="habilidades">
             <h2>Habilidades Técnicas</h2>
-            <ul>
-                <li><strong>Frontend:</strong> React, TypeScript, Tailwind</li>
-                <li><strong>Backend:</strong> Node.js, Express, Python</li>
-                <li><strong>Ferramentas:</strong> Git, Docker, Firebase</li>
-            </ul>
+            
+            <table>
+                <thead>
+                    <tr>
+                        <th scope="col">Categoria</th>
+                        <th scope="col">Tecnologias</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td><strong>Frontend</strong></td>
+                        <td>TypeScript, Tailwind, HTML e CSS</td>
+                    </tr>
+                    <tr>
+                        <td><strong>Backend</strong></td>
+                        <td>Node.js, Express, JavaScript</td>
+                    </tr>
+                    <tr>
+                        <td><strong>Ferramentas</strong></td>
+                        <td>Git, Canva, Figma</td>
+                    </tr>
+                </tbody>
+            </table>
         </section>
 
-        <!-- Seção de Código (Exemplo exigido no checklist) -->
-        <section>
+        <section id="codigo">
             <h2>Trecho de Código</h2>
             <p>Exemplo rápido da estrutura em código:</p>
-            <code>
-                const developer = { name: "Otávio", role: "Fullstack" };
-            </code>
+            <pre><code>const developer = { name: "Otávio", role: "Fullstack" };</code></pre>
         </section>
     </main>
 
